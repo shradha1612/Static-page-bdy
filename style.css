@@ -1,0 +1,55 @@
+.shailesh{
+    padding:0;
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(inner.jpg);
+    background-size:cover;
+    background-color:rgba(0, 0, 0, 0.486);
+    background-blend-mode:overlay;
+    font-family:verdana;
+}
+.container
+{
+    position:relative;
+    display:block;
+    height:400px;
+    width:600px;
+    background-color:#222;
+    overflow:hidden;
+}
+#text
+{
+    position:absolute;
+    display:inline-block;
+    color:white;
+    left:-200%;
+    height:400px;
+    width:500px;
+    transition:all 0.4s ease-in-out;
+}
+.container:hover #text
+{
+    left:10%;
+    cursor:pointer;
+}
+#text h1{
+    text-align:center;    
+}
+.letter
+{
+    transition: all 0.2s ease-in-out;
+}
+.letter:hover{
+    color:yellow;
+    font-size:20px;
+}
+.card-text{
+    font-size:20px;
+}
+.gallery{
+    display: flex;
+
+}
